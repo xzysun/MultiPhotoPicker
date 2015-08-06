@@ -29,15 +29,7 @@
 {
     PhotoAlbumListViewController *pickerVC = [PhotoAlbumListViewController picker];
     pickerVC.delegate = self;
-//    pickerVC.themeColor = [UIColor colorWithRed:61.0/255.0 green:124.0/255.0 blue:153.0/255.5 alpha:1.0];
-//    pickerVC.maxImageCount = 15;
     [pickerVC showFromViewController:self];
-    
-//    NSIndexPath *index1 = [NSIndexPath indexPathForItem:0 inSection:0];
-//    NSIndexPath *index2 = [NSIndexPath indexPathForItem:0 inSection:0];
-//    if ([index1 isEqual:index2]) {
-//        NSLog(@"equal!");
-//    }
 }
 
 -(void)photoPickerDidChooseImage:(NSArray *)images
