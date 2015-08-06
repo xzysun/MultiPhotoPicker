@@ -36,16 +36,6 @@
     [self.collectionView registerNib:[UINib nibWithNibName:@"PhotoItemCell" bundle:nil] forCellWithReuseIdentifier:PHOTO_ITEM_CELL_REUSE_IDENTIFIER];
     [self configCollectionLayout];
     self.collectionView.backgroundColor = [UIColor whiteColor];
-//    //返回按钮
-//    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//    backButton.frame = CGRectMake(0, 0, 33, 33);
-//    [backButton setTitle:@"" forState:UIControlStateNormal];
-//    [backButton setImage:[UIImage imageNamed:@"btn_arrowleft"] forState:UIControlStateNormal];
-//    [backButton setImage:[UIImage imageNamed:@"btn_arrowleft_pressed"] forState:UIControlStateHighlighted];
-//    backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 10);
-//    [backButton addTarget:self action:@selector(backButtonAction:) forControlEvents:UIControlEventTouchUpInside];
-//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
-//    self.navigationController.interactivePopGestureRecognizer.delegate = (id <UIGestureRecognizerDelegate>)self;
     //取消按钮
     UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
     rightButton.frame = CGRectMake(0, 0, 40, 30);

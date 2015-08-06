@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		066005E51B7305870066DA0A /* GVSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066005E41B7305870066DA0A /* GVSNavigationController.m */; };
+		066005E81B730F3E0066DA0A /* GVSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066005E71B730F3E0066DA0A /* GVSNavigationController.m */; };
 		067130B21B686E7F0028CE0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067130B11B686E7F0028CE0F /* main.m */; };
 		067130B51B686E7F0028CE0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067130B41B686E7F0028CE0F /* AppDelegate.m */; };
 		067130B81B686E7F0028CE0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067130B71B686E7F0028CE0F /* ViewController.m */; };
@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		066005E21B7304E70066DA0A /* GVSConstans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVSConstans.h; sourceTree = "<group>"; };
-		066005E31B7305870066DA0A /* GVSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVSNavigationController.h; sourceTree = "<group>"; };
-		066005E41B7305870066DA0A /* GVSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVSNavigationController.m; sourceTree = "<group>"; };
+		066005E61B730F3E0066DA0A /* GVSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVSNavigationController.h; sourceTree = "<group>"; };
+		066005E71B730F3E0066DA0A /* GVSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVSNavigationController.m; sourceTree = "<group>"; };
+		066005E91B730F610066DA0A /* GVSConstans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVSConstans.h; sourceTree = "<group>"; };
 		067130AC1B686E7F0028CE0F /* MultiPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067130B01B686E7F0028CE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067130B11B686E7F0028CE0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,8 +123,6 @@
 				067130BC1B686E7F0028CE0F /* Images.xcassets */,
 				067130BE1B686E7F0028CE0F /* LaunchScreen.xib */,
 				067130AF1B686E7F0028CE0F /* Supporting Files */,
-				066005E31B7305870066DA0A /* GVSNavigationController.h */,
-				066005E41B7305870066DA0A /* GVSNavigationController.m */,
 			);
 			path = MultiPhotoPicker;
 			sourceTree = "<group>";
@@ -134,7 +132,6 @@
 			children = (
 				067130B01B686E7F0028CE0F /* Info.plist */,
 				067130B11B686E7F0028CE0F /* main.m */,
-				066005E21B7304E70066DA0A /* GVSConstans.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,6 +156,9 @@
 		067130D51B686EDE0028CE0F /* PhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
+				066005E91B730F610066DA0A /* GVSConstans.h */,
+				066005E61B730F3E0066DA0A /* GVSNavigationController.h */,
+				066005E71B730F3E0066DA0A /* GVSNavigationController.m */,
 				067130EB1B68A7510028CE0F /* PhotoAlbumCell.h */,
 				067130EC1B68A7510028CE0F /* PhotoAlbumCell.m */,
 				067130ED1B68A7510028CE0F /* PhotoAlbumCell.xib */,
@@ -288,7 +288,7 @@
 			files = (
 				067130B81B686E7F0028CE0F /* ViewController.m in Sources */,
 				067130DC1B68718A0028CE0F /* PhotoPickerViewController.m in Sources */,
-				066005E51B7305870066DA0A /* GVSNavigationController.m in Sources */,
+				066005E81B730F3E0066DA0A /* GVSNavigationController.m in Sources */,
 				067130B51B686E7F0028CE0F /* AppDelegate.m in Sources */,
 				067130E91B68A6EC0028CE0F /* PhotoAlbumListViewController.m in Sources */,
 				067130F31B68AE900028CE0F /* PhotoPickerPreviewViewController.m in Sources */,
